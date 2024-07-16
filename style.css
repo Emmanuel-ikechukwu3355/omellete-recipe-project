@@ -1,0 +1,98 @@
+:root{
+     --Nutmeg: hsl(14,45%,36%);
+     --Dark-Raspberry: hsl(332,51%,32%);
+    --White: hsl(0,0%,100%);
+    --Rose-white: hsl(330,100%,98%);
+    --Eggshell: hsl(30,54%,90%);
+    --Light-grey: hsl(30,18%,87%);
+    --Wenge-Brown: hsl(30, 10%,34%);
+    --Dark-charcoal: hsl(24,5%,18%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Eggshell);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-family: "outfit",sans-serif;
+    color: var(--Wenge-Brown);
+    margin: 100px auto;
+}
+
+.container {
+    background-color: var(--White);
+    width: 700px;
+    display:flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.contaier img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+li {
+    margin-left: 1.4rem;
+    padding: 0.4rem;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    color: var( --Dark-Raspberry);
+}
+
+.time{
+    padding: 1rem;
+    background-color: var( --Rose-White);
+    border-radius: 0.5rem;
+    margin-top: 0.4rem;
+}
+
+.timer li::marker{
+    color: var( --Dark-Raspberry);
+}
+
+.container h1,h2 {
+    font-family: "Young Serif", serif
+}
+
+h1 {
+    color:var(--Dark-charcoal);
+}
+
+h2, b {
+    color: var(--Nutmeg);
+}
+  
+li b {
+    color: var(--Wenge-Brown);
+}
+
+li::marker {
+    color: var(--Wenge-Brown);
+}ol li::marker {
+    color: var(--Nutmeg);
+    font-weight: 700;
+}
+
+    table {
+    width: 30%;
+    margin: 10px 0;/* optional: Adds some space aroun the table*/
+}
+
+th, td {
+    border-bottom: 1px solid #353131; /* black border fortable cells */
+    padding:3px;
+    text-align: left;
+
+}
