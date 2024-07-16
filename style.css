@@ -87,11 +87,11 @@ li::marker {
 
     table {
     width: 30%;
-    margin: 10px 0;/* optional: Adds some space aroun the table*/
+    margin: 10px 0;
 }
 
 th, td {
-    border-bottom: 1px solid #353131; /* black border fortable cells */
+    border-bottom: 1px solid #353131; 
     padding:3px;
     text-align: left;
 
